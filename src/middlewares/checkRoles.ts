@@ -13,10 +13,10 @@ export const checkRole = (roles: Array<string>) => {
     let user: User
     try {
       user = await userRepository.findOneOrFail(id)
-      
-    //Check if array of authorized roles includes the user's role
-    if (roles.indexOf(user.role) > -1) next()
-    else res.status(401).send() 
+
+      //Check if array of authorized roles includes the user's role
+      if (roles.indexOf(user.role) > -1) next()
+      else res.status(401).send()
     } catch (id) {
       res.status(401).send()
     }

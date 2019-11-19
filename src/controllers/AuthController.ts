@@ -34,12 +34,9 @@ class AuthController {
 
       //Send the jwt in the response
       res.send(token)
-
     } catch (error) {
       res.status(401).send()
     }
-
-
   }
 
   static changePassword = async (req: Request, res: Response) => {
@@ -76,9 +73,7 @@ class AuthController {
       userRepository.save(user)
 
       res.status(204).send()
-
     } catch (id) {
-     
       res.status(401).send()
     }
   }
