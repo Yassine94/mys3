@@ -1,6 +1,6 @@
 {
-   "type": "sqlite",
-   "database": "database.sqlite",
+   "type": "mongodb",
+   "database": "user",
    "synchronize": true,
    "logging": false,
    "entities": [
