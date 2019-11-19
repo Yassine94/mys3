@@ -1,3 +1,3 @@
 export default {
-    jwtSecret: "yass@charbel"
-  };
+  jwtSecret: 'yass@charbel',
+}
