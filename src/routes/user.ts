@@ -1,7 +1,7 @@
 import { Router } from 'express'
-import UserController from '../controllers/UserController'
+import UserController from '../controllers/UserControllers'
 import { checkJwt } from '../middlewares/checkJwt'
-import { checkRole } from '../middlewares/checkRole'
+import { checkRole } from '../middlewares/checkRoles'
 
 const router = Router()
 
