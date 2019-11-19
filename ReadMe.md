@@ -1,5 +1,8 @@
-## Efrei
+# mys3
 
-## <a name='credits'>Credits</a>
+# Awesome Project Build with TypeORM
+Steps to run this project:
 
-Craft with :heart: by **Majdi** in **Paris**.
+1. Run `npm i` command
+2. Setup database settings inside `ormconfig.json` file
+3. Run `npm start` command

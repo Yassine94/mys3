@@ -26,7 +26,13 @@
     "node": ">=12.7.x",
     "yarn": ">=1.19.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "typeorm": "^0.2.20",
+    "body-parser": "^1.18.1",
+    "reflect-metadata": "^0.1.10",
+    "sqlite3": "^4.0.3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
@@ -38,6 +44,8 @@
     "@types/jest": "^24.0.20",
     "@types/node": "^12.11.7",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333",
     "@typescript-eslint/parser": "^2.5.0",
     "babel-jest": "^24.9.0",
     "chai": "^4.2.0",
